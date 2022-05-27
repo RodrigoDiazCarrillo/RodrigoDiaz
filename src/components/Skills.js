@@ -2,12 +2,13 @@ import { FaCss3Alt,FaReact,FaNodeJs,FaBootstrap,FaHtml5,FaSass,FaGithub} from "r
 import { SiTypescript, SiJavascript, SiProcessingfoundation,SiSymfony
 ,SiMongodb,SiPhp} from "react-icons/si";
 import './Skills.css'
-import React, { useState } from 'react';
-//import { useTheme, Theme } from '../ThemeContext';
+import React, { useContext } from 'react';
+import ThemeContext from '../context';
+
 export function Skills() {
-  //const { theme, setTheme } = useTheme();
+  const {theme} = useContext(ThemeContext);
     return (
-      <div className={"skills"}>
+      <div className={"skills"+theme.name}>
         
 
       <p className="title">Technologies</p>

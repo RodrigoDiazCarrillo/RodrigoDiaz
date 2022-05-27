@@ -13,7 +13,6 @@ export default function App() {
   const [theme, setTheme] = useState(themes.light);
 
   const handleChangeTheme = () => {
-    // console.log(theme);
     setTheme(() => {
       return theme === themes.dark ? themes.light : themes.dark;
     });

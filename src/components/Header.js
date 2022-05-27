@@ -8,10 +8,10 @@ import ThemeContext from '../context';
 
 export function Component_header(){
   const { theme, handleChangeTheme } = useContext(ThemeContext);
-  console.log(theme);
+  console.log("tema"+theme.name);
   return (
     <div className="header_main">
-        <div id={"nav_bar"+theme}>
+        <div id={"nav_bar"+theme.name}>
           
           </div>
         <button

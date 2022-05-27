@@ -1,9 +1,11 @@
 import './CV.css'
-//import { useTheme, Theme } from '../ThemeContext';
+import React, { useContext } from 'react';
+import ThemeContext from '../context';
+
 export function CV() {
-    //const { theme, setTheme } = useTheme();
+    const {theme} = useContext(ThemeContext);
     return (
-        <div className={"cv"}>
+        <div className={"cv"+theme.name}>
             <a className="title">Curricvlvm</a>
             <p>Lorem ipsum</p>
             <p>Lorem ipsum</p>

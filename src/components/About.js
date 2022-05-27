@@ -1,11 +1,13 @@
 import './About.css'
-//import { useTheme, Theme } from '../ThemeContext';
+import React, { useContext } from 'react';
+import ThemeContext from '../context';
+
 export function About() {
-  //const { theme, setTheme } = useTheme();
+  const {theme} = useContext(ThemeContext);
   return (
  
 
-        <div id={"about"}>
+        <div id={"about"+theme.name}>
         <p className='title'>About</p>
         <p>Hello! My name is Rodrigo and I enjoy creating websites.
           My interest in web development started in 2011 when 
