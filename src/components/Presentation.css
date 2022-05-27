@@ -1,0 +1,38 @@
+.presentationLight{
+  margin: auto;
+    margin-bottom: 40vh;
+    margin-top: 40vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    width: 40%;
+    height: 12rem;
+    min-width: 22rem;
+    padding: .5rem .5rem;
+    box-sizing: border-box;
+    color:rgb(0, 100, 100);
+}
+.presentationDark{
+  margin: auto;
+    margin-bottom: 40vh;
+    margin-top: 40vh;
+    background-color: rgba(250, 255, 175, 0.7);
+    border-radius: 8px;
+    width: 40%;
+    height: 12rem;
+    min-width: 22rem;
+    padding: .5rem .5rem;
+    box-sizing: border-box;
+    color:rgb(140, 0, 0);
+}
+
+.presentationLight p, .presentationDark p{
+  font-size: 2rem;  
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+.presentationLight a, .presentationDark a{
+  margin: 0 auto;
+}
+

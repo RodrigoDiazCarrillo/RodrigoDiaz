@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Water+Brush&display=swap');
+.header_main{
+    width: 100%;
+}
+.light{
+  background-color: blueviolet;
+}
+#nav_barLight{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 15%;
+  padding: 1rem;
+  width: 3rem; /* Full width */
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#nav_barDark{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 15%;
+  padding: 1rem;
+  width: 3rem; /* Full width */
+  background-color: rgba(250, 255, 175, 0.7);
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  color:rgb(140, 0, 0);
+}
+
+#nav_barLight a{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 10px 10px 36px -1px rgba(0,0,0,0.42);
+    width: 100%;
+    white-space: nowrap;
+    line-height : 25px;
+    color:rgb(0, 100, 100);
+}
+#nav_barDark a{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Bungee Shade', cursive;
+  text-shadow: 10px 10px 36px -1px rgba(0,0,0,0.42);
+  width: 100%;
+  white-space: nowrap;
+  line-height : 25px;
+  color:rgb(140, 0, 0);
+}
+#nav_barLight a:hover,#nav_barDark a:hover{
+  animation-name: skillsanim;
+  animation-duration: 1s; 
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+} 
+
+#themeBtnLight{
+  margin-top: 2rem;
+  background: none;
+  border: 0px;
+  color:rgb(0, 100, 100);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+#themeBtnDark{
+  margin-top: 2rem;
+  background: none;
+  border: 0px;
+  color:rgb(140, 0, 0);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#themeBtnLight:hover,#themeBtnDark:hover{
+  background: none;
+  border: 0px;
+  color: rgb(41, 25, 0);
+  font-size: 1.2rem;
+  text-decoration: none;
+  animation-name: skillsanim;
+  animation-duration: 1s; 
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  
+}
+

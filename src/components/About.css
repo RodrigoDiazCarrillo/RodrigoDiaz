@@ -1,0 +1,37 @@
+#aboutLight{
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(0, 100, 100);
+}
+#aboutDark{
+    background-color: rgba(250, 255, 175, 0.7);
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(140, 0, 0);
+}
+#aboutLight .title,#aboutDark .title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#aboutLight p,#aboutDark p{
+    font-size: 1.4rem;
+    text-align: justify;
+    margin: 0 2rem 2rem 2rem;
+    font-weight: 400;
+}

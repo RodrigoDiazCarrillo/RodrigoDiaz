@@ -1,0 +1,45 @@
+ .icons{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+.icons a{
+    background: none;
+    border: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.icons a:hover{
+    background: none;
+    border: 0px;
+    color: rgb(41, 25, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+    animation-name: stretch;
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.3;
+    animation-direction: alternate; 
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    25% {
+      transform: scale(1.5);
+      color: rgb(255, 255, 255);
+    }
+    50% {
+      transform: scale(1.2);
+      color: rgb(255, 157, 0);
+    }
+    100% {
+      transform: scale(1.5);
+      color: rgb(255, 255, 255);
+    }
+  }
