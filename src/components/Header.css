@@ -2,9 +2,7 @@
 .header_main{
     width: 100%;
 }
-.light{
-  background-color: blueviolet;
-}
+
 #nav_barLight{
   display: flex;
   flex-direction: column;
@@ -56,6 +54,7 @@
   animation-duration: 1s; 
   animation-timing-function:linear;
   animation-iteration-count: infinite;
+  cursor: default;
 } 
 
 #themeBtnLight{
