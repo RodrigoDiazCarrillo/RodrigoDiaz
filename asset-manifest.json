@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RodrigoDiaz/static/css/main.e6c13ad2.css",
+    "main.js": "/RodrigoDiaz/static/js/main.de29621c.js",
+    "static/js/787.1f45273a.chunk.js": "/RodrigoDiaz/static/js/787.1f45273a.chunk.js",
+    "index.html": "/RodrigoDiaz/index.html",
+    "main.e6c13ad2.css.map": "/RodrigoDiaz/static/css/main.e6c13ad2.css.map",
+    "main.de29621c.js.map": "/RodrigoDiaz/static/js/main.de29621c.js.map",
+    "787.1f45273a.chunk.js.map": "/RodrigoDiaz/static/js/787.1f45273a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.de29621c.js"
+  ]
+}
