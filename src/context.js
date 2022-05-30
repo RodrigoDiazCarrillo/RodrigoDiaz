@@ -5,12 +5,12 @@ export const themes = {
   light: {
     name: 'Light',
     foreground: '#000000',
-    background: '#eeeeee'
+    background: 'rgb(0, 100, 100)'
   },
   dark: {
     name: 'Dark',
     foreground: '#ffffff',
-    background: '#222222'
+    background: 'rgb(140, 0, 0)'
   }
 };
 

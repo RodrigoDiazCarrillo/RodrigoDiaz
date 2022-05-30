@@ -5,9 +5,9 @@ import './Social_bar.css'
 export function Social_bar() {
     return (
       <div className="icons">
-        <a href=""><BsLinkedin/></a>
-        <a href=""><BsGithub/></a>
-        <a href=""><MdEmail/></a>
+        <a href="https://www.linkedin.com/in/rodrigo-d%C3%ADaz-carrillo-0203741b5/" target="_blank"><BsLinkedin/></a>
+        <a href="https://github.com/RodrigoDiazCarrillo" target="_blank"><BsGithub/></a>
+        <a href="mailto:dzcll90@gmail.com"><MdEmail/></a>
       </div>
     );
   }
