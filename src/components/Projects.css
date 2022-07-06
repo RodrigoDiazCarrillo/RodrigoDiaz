@@ -25,21 +25,27 @@
     font-weight: 800;
 }
 #projectsLight img{
-    width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 3rem;
     filter: sepia() saturate(100%) hue-rotate(90deg)
-    
 }
  #projectsDark img{
-    width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 3rem;
     filter: sepia() saturate(100%) hue-rotate(320deg)
     
 }
+#projectsLight .pr a,#projectsDark .pr a{
+    width: 40%;
+}
+#projectsLight .pr div,#projectsDark .pr div{
+    width: 40%;
+}
+
 #projectsLight img:hover,#projectsDark img:hover{
     
     animation-name: imganim;

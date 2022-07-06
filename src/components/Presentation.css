@@ -1,7 +1,5 @@
 .presentationLight{
-  margin: auto;
-    margin-bottom: 40vh;
-    margin-top: 40vh;
+    margin: 40vh auto 40vh;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
     width: 40%;
@@ -26,13 +24,51 @@
 }
 
 .presentationLight p, .presentationDark p{
-  font-size: 2rem;  
+  font-size: 1.5rem;  
   display: flex;
   flex-direction: column;
   height: 100%;
-  
 }
 .presentationLight a, .presentationDark a{
   margin: 0 auto;
 }
 
+
+@media (max-width: 575.98px) { }
+.presentationLight, .presentationDark {
+  width: 30%;
+}
+.presentationLight p, .presentationDark p {
+  font-size: 1.2rem;
+}
+.presentationLight p, .presentationDark p{
+  margin-top: 13%;
+}
+#nav_barLight, #nav_barDark {
+  width: 2rem;
+}
+#aboutLight p, #aboutDark p{
+  font-size: 1.2rem;
+}
+.skillsLight .icons, .skillsDark .icons {
+  font-size: 2rem;
+}
+#projectsLight .pr, #projectsDark .pr {
+  display: flex;
+  flex-direction: column;
+}
+#projectsLight .pr div, #projectsDark .pr div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767.98px) { }
+
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}
