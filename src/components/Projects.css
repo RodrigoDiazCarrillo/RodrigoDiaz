@@ -60,6 +60,18 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+#projectsLight .pr h2,#projectsDark .pr h2{
+    margin: 0;
+}
+#projectsLight .pr p,#projectsDark .pr p{
+    margin: 0 0 1rem 0;
+}
+#projectsLight .pr .const_advice,#projectsDark .pr .const_advice{
+    color: red;
+    font-size: .7rem;
+    font-weight: 700;
+    margin: -1rem 0 1rem 0;
+}
 @keyframes imganim{
     0% {
         filter: grayscale(100%);

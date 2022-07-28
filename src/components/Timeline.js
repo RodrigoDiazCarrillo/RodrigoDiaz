@@ -36,7 +36,7 @@ export function Timeline() {
     <h5 className="vertical-timeline-element-title">Certificate of Higher Education (HNC)</h5>
     <h6>FP II</h6>
     <p>Health & Safety (PRL)</p>
-    <p>2018-2022</p>
+    <p>2018-2020</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="element-three"

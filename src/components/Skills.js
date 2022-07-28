@@ -1,6 +1,6 @@
 import { FaCss3Alt,FaReact,FaNodeJs,FaBootstrap,FaHtml5,FaSass,FaGithub} from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiProcessingfoundation,SiSymfony
-,SiMongodb,SiPhp} from "react-icons/si";
+,SiMongodb,SiPhp,SiFirebase} from "react-icons/si";
 import './Skills.css'
 import React, { useContext } from 'react';
 import ThemeContext from '../context';
@@ -30,6 +30,7 @@ export function Skills() {
                 <i><FaSass/></i>
                 <i><SiSymfony/></i>
                 <i><SiPhp/></i>
+                <i><SiFirebase/></i>
             </div>
 
         </div>
